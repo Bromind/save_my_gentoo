@@ -2,7 +2,7 @@
 # Author: Martin Vassor
 # Description: Save all user modified files of the system (for gentoo), so he can have a similar system on an other computer
 # Creation date: 14-06-2017
-# Last modified: mer. 14 juin 2017 22:17:00 CEST
+# Last modified: mer. 14 juin 2017 22:20:57 CEST
 # Known bugs: 
 
 print_help() {
@@ -44,7 +44,7 @@ main
 
 : <<config
 
-FILES=/tmp/gentoo_files
+FILES=./gentoo_files
 
 config
 
